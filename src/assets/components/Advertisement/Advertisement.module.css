@@ -1,0 +1,105 @@
+.advertisement {
+  padding-top: 60px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-width: 320px;
+  max-width: 375px;
+}
+.sectionBox {
+  background-color: #0c0c0c;
+  border-radius: 30px;
+  padding: 60px 28px;
+  background-image: url("./advertisement/bg-mob.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 100%;
+}
+.sectionName {
+  display: none;
+}
+.text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+}
+.textSpan {
+  color: rgba(251, 251, 251, 0.5);
+}
+.sectionButton {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  padding: 15px 44px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.sectionButton:hover {
+  background: #fbfbfb;
+  color: #0c0c0c;
+}
+
+@media only screen and (min-width: 768px) {
+  .advertisement {
+    padding-top: 80px;
+  }
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+  .sectionBox {
+    background-image: url("./sale/img-tablet.png");
+  }
+  .text {
+    font-size: 48px;
+    margin-bottom: 32px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .advertisement {
+    padding-top: 100px;
+  }
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+
+  .sectionBox {
+    background-image: url("./advertisement/bg-desk.png");
+    padding: 80px 80px 83px 80px;
+    display: flex;
+    gap: 140px;
+  }
+  .text {
+    width: 690px;
+  }
+  .sectionButton {
+    height: 48px;
+  }
+}
+
+@media (min-resolution: 2dppx) {
+  .sectionBox {
+    background-image: url("./advertisement/bg-mob@2x.png");
+  }
+}
+@media (min-width: 768px) and (min-resolution: 2dppx) {
+  .sectionBox {
+    background-image: url("./advertisement/bg-tab@2x.png");
+  }
+}
+@media (min-width: 1280px) and (min-resolution: 2dppx) {
+  .sectionBox {
+    background-image: url("./advertisement/bg-desk@2x.png");
+  }
+}
