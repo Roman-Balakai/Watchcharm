@@ -84,6 +84,12 @@ const Catalog = () => {
         </ul>
         <button className={css.productButton}>Show more</button>
       </div>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
+        corporis labore vitae cum earum natus voluptates excepturi accusantium
+        quasi voluptas eos officiis fuga, libero dignissimos a, quas commodi
+        inventore repellendus!
+      </p>
     </section>
   );
 };
